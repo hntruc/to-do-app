@@ -4,11 +4,11 @@ A simple todo application.
 
 ## Features
 
-- Create, update, and delete notes
+- Create, update, and delete notes.
 
 ## Technologies Used
 
-- FASTAPI
+- FastAPI
 - Streamlit
 - PostgresQL
 
@@ -46,7 +46,7 @@ A simple todo application.
     docker-compose up -d
     ```
 
-7. Start the FASTapi backend server:
+7. Start the FastAPI backend server:
 
     ```bash
     poetry run python -m todoapp_backend.main
