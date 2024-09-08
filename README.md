@@ -86,8 +86,8 @@ To run the tests, use the following command:
 
 ## Usage
 
-- Create a new task by entering a title and optional description.
-- Update a task by clicking on it and modifying the details.
+- Create a new task by entering a task's description.
+- Update a task by clicking on update button and modifying the details.
 - Mark a task as complete by checking the checkbox next to it.
 - Delete a task by clicking on the delete button.
 
