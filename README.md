@@ -28,7 +28,7 @@ A simple todo application.
     cd todoapp_backend
     ```
 
-4. Create a virtual environment and activate it, initialize a new Poetry project (if you don't have a pyproject.toml file yet)::
+4. Create a virtual environment and activate it, initialize a new Poetry project (if you don't have a pyproject.toml file yet):
 
     ```bash
     poetry init
