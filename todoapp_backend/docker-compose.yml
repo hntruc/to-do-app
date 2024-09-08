@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PWD}
+      - POSTGRES_DB=${DB_NAME}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    container_name: postgres_db
+
+  migration:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    container_name: migration_service
+      
+volumes:
+  pgdata:

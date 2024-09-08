@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "todoapp-backend"
+version = "0.1.0"
+description = ""
+authors = ["Nguyen Truc"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.6"
+tortoise-orm = "^0.21.6"
+tortoise = "^0.1.1"
+sqlalchemy = "^2.0.32"
+streamlit = "^1.37.1"
+python-dotenv = "^1.0.1"
+asyncpg = "^0.29.0"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.3.2"
+httpx = "^0.27.2"
+pytest-asyncio = "^0.24.0"
+alembic = "^1.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
