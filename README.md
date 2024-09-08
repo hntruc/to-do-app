@@ -74,7 +74,7 @@ A simple todo application.
     docker-compose down
     ```
 
-That's it! You have successfully implemented the Todoapp using FASTapi, Streamlit, Postgres, and Docker.
+That's it! You have successfully implemented the Todoapp using FastAPI, Streamlit, Postgres, and Docker.
 
 ## Running Tests
 
